@@ -10,12 +10,5 @@ gems:
   - jekyll-coffeescript
   - jekyll-paginate
 
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "post"
-
 paginate: 5
 paginate_path: "page:num/"
